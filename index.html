@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>calculator</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div id="display">
+      <input type="text" id="input" />
+
+      <div id="button1">
+        <button onclick="dis(9)" id="btn">9</button>
+        <button onclick="dis(8)" id="btn">8</button>
+        <button onclick="dis(7)" id="btn">7</button>
+        <button onclick="dis('/')" id="btn">/</button>
+      </div>
+      <div id="button1">
+        <button onclick="dis(6)" id="btn">6</button>
+        <button onclick="dis(5)" id="btn">5</button>
+        <button onclick="dis(4)" id="btn">4</button>
+        <button onclick="dis('*')" id="btn">*</button>
+      </div>
+      <div id="button1">
+        <button onclick="dis(3)" id="btn">3</button>
+        <button onclick="dis(2)" id="btn">2</button>
+        <button onclick="dis(1)" id="btn">1</button>
+        <button onclick="dis('-')" id="btn">-</button>
+      </div>
+      <div id="button1">
+        <button onclick="dis('.')" id="btn">.</button>
+        <button onclick="dis(0)" id="btn">0</button>
+        <button onclick="dis('+')" id="btn">+</button>
+        <button onclick="calculate()" id="btn">=</button>
+      </div>
+      <div><button onclick="clearfunction()" id="button">C</button></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
